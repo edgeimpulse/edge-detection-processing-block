@@ -1,0 +1,42 @@
+{
+    "version": 1,
+    "info": {
+        "title": "Edge Detection",
+        "author": "Jan Jongboom",
+        "description": "Edge Detection for images",
+        "name": "Edge Detection",
+        "cppType": "sobel_edge_detection",
+        "preferConvolution": false,
+        "visualization": "dimensionalityReduction",
+        "experimental": false,
+        "latestImplementationVersion": 1
+    },
+    "parameters": [
+        {
+            "group": "Edge Detection",
+            "items": [
+                {
+                    "name": "High threshold",
+                    "value": 100,
+                    "help": "High threshold value of intensity gradient",
+                    "type": "int",
+                    "param": "high_threshold"
+                },
+                {
+                    "name": "Low threshold",
+                    "value": 200,
+                    "help": "Low threshold value of intensity gradient",
+                    "type": "int",
+                    "param": "low_threshold"
+                },
+                {
+                    "name": "Gaussian blur",
+                    "value": 3,
+                    "help": "Amount of blur",
+                    "type": "int",
+                    "param": "gaussian_blur"
+                }
+            ]
+        }
+    ]
+}
